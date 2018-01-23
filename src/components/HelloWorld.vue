@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img src="../assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -78,6 +79,12 @@
         >
           awesome-vue
         </a>
+      </li>
+    </ul>
+    <h2>Pokola Zoo Pages</h2>
+    <ul>
+      <li>
+        <a href="#/page1">Page1</a>
       </li>
     </ul>
   </div>
