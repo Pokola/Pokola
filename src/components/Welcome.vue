@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1 class="h1">{{msg}}</h1>
-    <div class="anim-test">hello~!</div>
+    <div class="anim-test">{{boxmsg}}</div>
   </div>
 </template>
 
@@ -10,7 +10,8 @@ export default {
   name: 'Wellcome',
   data () {
     return {
-      msg: 'Welcome'
+      msg: 'Welcome',
+      boxmsg: '扭一扭'
     }
   }
 }
